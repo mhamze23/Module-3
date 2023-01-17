@@ -1,34 +1,43 @@
+# Module3- Challenge
+03 JavaScript: Password Generator
 
-# Horiseon - Module 1 Challenge
+## Your Task
 
-We were hired by a marketing agency to refactor an existing site to apply the accessibility standard.
+This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+
+The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
 ## User Story
-* AS A marketing agency
-* I WANT a codebase that follows accessibility standards
-* SO THAT our own site is optimized for search engines
 
-## Acceptance Criteria 
-* GIVEN a webpage meets accessibility standards
-* WHEN I view the source code
-* THEN I find semantic HTML elements
-* WHEN I view the structure of the HTML elements
-* THEN I find that the elements follow a logical structure independent of styling and positioning
-* WHEN I view the image elements
-* THEN I find accessible alt attributes
-* WHEN I view the heading attributes
-* THEN they fall in sequential order
-* WHEN I view the title element
-* THEN I find a concise, descriptive title
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
 
-## Tools Used
-* HTML
-* CSS
+## Acceptance Criteria
 
-## Screenshots
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+```
 
-![App Screenshot](https://mhamze23.github.io/Module1-Challenge/)
+## Mock-Up
 
-## GitHub Profile & Page
-* https://github.com/mhamze23/Module1-Challenge
-* https://mhamze23.github.io/Module1-Challenge/
+The following image shows the web application's appearance and functionality:
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/115047281/212229351-a7f71901-e3f3-4693-a531-f06c80a7fd2a.png)
+
+© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
